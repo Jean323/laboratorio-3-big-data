@@ -4,7 +4,7 @@ from datetime import datetime
 
 #Rutas
 DS_entrada = 'dataset/academic_survival_longitudinal.csv'
-salida = '/data/raw'
+salida = 'data/raw'
 
 def ingesta_data():
     print("Iniciando proceso de ingesta desde la Landing Zone...")
@@ -19,8 +19,7 @@ def ingesta_data():
 
         return
 
-    # Agregar metadatos (buena practica de data lakehouse)
-    # No se modifica los datos originales, solo agrega una columna para saber cuando se ingirieron.
+    # Agregar metadatos
     fecha_actual = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     df['ingestion_timestamp'] = fecha_actual
     

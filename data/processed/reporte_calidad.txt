@@ -1,0 +1,6 @@
+REPORTE DE CALIDAD DE LOS DATOS
+Total de registros recibidos: 79239
+Duplicados removidos: 0
+Registros con campos nulos eliminados: 0
+Registros con campos inconsistentes removidos: 249
+Registros limpios finales: 78990

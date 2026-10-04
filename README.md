@@ -119,6 +119,24 @@ Este script ejecuta consultas SQL sobre la capa Gold para mostrar:
 
 Al finalizar el flujo, el proyecto genera una capa de datos preparada para análisis con una estructura resumida por estudiante en formato Parquet.
 
+## Visualización y Dashboard (Power BI)
+
+Se implementó un dashboard interactivo en Power BI Desktop conectado directamente a la capa Gold (`data/gold/resumen_estudiantes/`) leyendo el archivo nativo Parquet.
+
+### Vista del Dashboard
+
+![Dashboard Power BI](dashboard/captura_dashboard.png)
+
+### Consultas Representadas
+
+- **Datos Globales:** Total de estudiantes (19.992), promedio GPA histórico (2,71) y asistencia media universitaria (86,04%).
+- **Top 5 mejores promedios:** Alumnos con mejor rendimiento histórico.
+- **Alerta Riesgo Semestre 1:** Monitoreo de los 10 casos más críticos de primer semestre con GPA inferior a 2.0.
+- **Carga Académica:** Top 10 estudiantes con mayor cantidad de cursos acumulados .
+- **Monitoreo de Asistencia:** Detección de los 10 alumnos con menor porcentaje de asistencia histórica .
+
+El archivo `.pbix` con las visualizaciones y filtros se encuentra disponible en `dashboard/dashboard.pbix`.
+
 ## Notas
 
 - El notebook `scripts/transformacion.ipynb` puede usarse para revisar la transformación paso a paso.

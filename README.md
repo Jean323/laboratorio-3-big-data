@@ -23,6 +23,9 @@ El archivo base del proyecto se encuentra en:
 
 ```text
 .
+├── dashboard/
+│   ├── captura_dashboard.png
+│   └── dashboard.pbix
 ├── data/
 │   ├── gold/
 │   │   └── resumen_estudiantes/

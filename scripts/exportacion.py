@@ -541,6 +541,6 @@ def main():
     print(f"- {archivo_resumen}")
     print(f"- {RUTA_SALIDA / 'reporte_exportacion.txt'}")
 
-
+# _
 if __name__ == "__main__":
     main()

@@ -1,0 +1,63 @@
+============================================================
+REPORTE DE GENERACIÓN Y EXPORTACIÓN DE RESULTADOS
+============================================================
+
+Fecha de ejecución: 04/10/2026 21:13:11
+
+1. ORIGEN DE LOS DATOS
+------------------------------------------------------------
+Zona: Gold / Curated
+Formato de origen: Parquet
+Ruta de origen: E:\Desktop\laboratorio-3-big-data\data\gold\resumen_estudiantes
+Registros recibidos: 19992
+Estudiantes únicos: 19992
+Columnas recibidas: 5
+
+2. VALIDACIÓN ESTRUCTURAL
+------------------------------------------------------------
+Columnas esperadas: OK
+Dataset vacío: NO
+Valores nulos encontrados: 0
+Student_ID duplicados: 0
+Resultado validación estructural: APROBADO
+
+3. VALIDACIÓN DE COHERENCIA
+------------------------------------------------------------
+Student_ID vacíos: 0
+GPA fuera del rango esperado: 0
+Asistencias fuera del rango esperado: 0
+Cursos con valores negativos: 0
+Semestres inválidos: 0
+Resultado validación de coherencia: APROBADO
+
+4. RESUMEN GENERAL DE LOS DATOS
+------------------------------------------------------------
+Estudiantes procesados: 19992
+Estudiantes únicos: 19992
+GPA promedio general: 2.71
+Asistencia promedio: 86.04%
+Promedio de cursos tomados: 58.82
+Máximo de cursos acumulados: 153
+Promedio último semestre cursado: 3.96
+
+5. EXPORTACIÓN
+------------------------------------------------------------
+Formato principal generado: CSV
+Registros exportados: 19992
+Columnas exportadas: 5
+Codificación: UTF-8
+Columna de índice adicional: NO
+Archivo principal: E:\Desktop\laboratorio-3-big-data\output\resultados\resumen_estudiantes.csv
+Archivo de resumen: E:\Desktop\laboratorio-3-big-data\output\resultados\resumen_resultados.csv
+
+6. VERIFICACIÓN POST-EXPORTACIÓN
+------------------------------------------------------------
+Filas coinciden con Gold: SÍ
+Columnas coinciden con Gold: SÍ
+Valores coinciden con Gold: SÍ
+
+RESULTADO FINAL: EXPORTACIÓN EXITOSA
+
+Los datos de la zona Gold fueron validados y exportados
+correctamente sin modificar los archivos originales.
+============================================================
